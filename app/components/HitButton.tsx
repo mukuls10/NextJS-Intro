@@ -7,7 +7,7 @@ const HitButton: React.FC = () => {
 
   const handleHit = async () => {
     try {
-      const apiResponse = await axios.get<string>('http://localhost:4000');
+      const apiResponse = await axios.get<string>('http://35.200.191.100:4000');
       setResponse(apiResponse.data);
     } catch (error) {
       console.error('Error making API call:', error);
