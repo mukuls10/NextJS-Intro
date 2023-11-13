@@ -5,6 +5,7 @@ const Home: React.FC = () => {
     <div>
       <h1>Next.js App</h1>
       <HitButton />
+      <HitButton />
     </div>
   );
 };
